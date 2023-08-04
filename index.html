@@ -8,25 +8,31 @@
     </head>
     <body>
         <header>
-            <span class="header-logo">Header Logo</span>
-            <nav>
-                <ul>
-                    <li>header link one</li>
-                    <li>header link two</li>
-                    <li>header link three</li>
-                </ul>
-            </nav>
-            <section class="hero">
-                <h1>This website is awesome</h1>
-                <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-                <button>Sign Up</button>
+            <div class="container">
+                <span class="header-logo">Header Logo</span>
+
+                <nav>
+                    <ul>
+                        <li><a class="header-link" href="#">header link one</a></li>
+                        <li><a class="header-link" href="#">header link two</a></li>
+                        <li><a class="header-link" href="#">header link three</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <section class="hero container">
+                <div class="hero-content">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button>Sign Up</button>
+                </div>
                 <div class="img-placeholder">This is a placeholder for an image</div>
             </section>
         </header>
         <main>
-            <section>
-                <h1>Some random information</h1>
-                <div class="container">
+            <section class="information">
+                <h1>Some random information.</h1>
+                <div class="information-content container">
                     <figure>
                         <picutre>
                             <div class="img-box"></div>
@@ -53,20 +59,22 @@
                     </figure>
                 </div>
             </section>
-            <section>
+            <section class="quote">
                 <blockquote>
                     <p>This is an spiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
                 </blockquote>
-                <p>-Thor, God of Thunder</p>
+                <p class="author">-Thor, God of Thunder</p>
             </section>
-            <div class="call-to-action">
-                <h2>Call to action! It's time!</h2>
-                <p>Sign up for our product by clicking that button right over there!</p>
+            <div class="call-to-action container">
+                <div class="call-to-action-content">
+                    <h2>Call to action! It's time!</h2>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
                 <button>Sign up</button>
             </div>
         </main>
         <footer>
-            Copyright © The Odin Project 2021
+            <p>Copyright © The Odin Project 2021</p>
         </footer>
     </body>
 </html>

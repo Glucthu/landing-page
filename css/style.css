@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 150px;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 16px;
+} 
+
+header, footer {
+    background-color: #1F2937;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+}
+
+header p,
+footer p, 
+.header-link {
+    font-size: 18px;
+    color: #AAA;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin: 75px 0;
+}
+
+.hero button,
+.call-to-action button {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #E5E7EB;
+    margin-top: 8px;
+}
+
+.hero-content {
+    flex: 0 0 450px;
+}
+
+.img-placeholder {
+    background-color: #888;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin: 50px 0;
+}
+
+.information h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
+.information-content {
+    gap: 75px;
+    justify-content: center;
+}
+
+.img-box {
+    width: 100px;
+    height: 100px;
+    color: transparent;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+figure figcaption {
+    max-width: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 275px;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 24px 100px;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.call-to-action button {
+    border: 2px solid #E5E7EB;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
